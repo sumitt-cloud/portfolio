@@ -17,3 +17,22 @@ body{
   font-family:'Times New Roman', Times, serif;
   
 }
+.main{
+  display: flex;
+  justify-content: end;
+  align-items:flex-end;
+}
+.linkdin{
+color: black;
+font-size: 50px;
+}
+.linkdin :hover{
+  color: rgb(41, 125, 233);
+}
+.github{
+  color: black;
+  font-size: 50px;
+}
+.github:hover{
+  color: azure;
+}
