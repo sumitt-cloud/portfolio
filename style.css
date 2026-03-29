@@ -1,0 +1,19 @@
+body{
+  background-image: url("./BATMAN-WALLPAPER-4K-632023.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+.h1{
+  color: rgb(10, 1, 1);
+  font-style:bold;
+  font-family:'Times New Roman', Times, serif;
+  
+}
