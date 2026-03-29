@@ -37,12 +37,17 @@ font-size: 50px;
   color: azure;
 }
 
-/* SKILLS */
-.section{
+/* NAVBAR */
+
+.navbar{
   display: flex;
-  justify-content:flex-start;
+  justify-content: baseline;
   align-items: flex-end;
+  gap: 20px;
+  text-decoration:overline;
 }
+/* SKILLS */
+
 .skills{
   color: black;
   font-size: 25px;
@@ -50,5 +55,38 @@ font-size: 50px;
   font-style: italic;
 }
 .skills:hover{
+  color: rgb(17, 39, 234);
+}
+
+/* PROJECTS */
+.projects{
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.projects:hover{
+  color: rgb(17, 39, 234);
+}
+
+/* INRO */
+.intro{
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.intro:hover{
+  color: rgb(17, 39, 234);
+}
+
+/* ABOUT */
+.about{
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.about:hover{
   color: rgb(17, 39, 234);
 }
