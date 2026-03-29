@@ -36,3 +36,19 @@ font-size: 50px;
 .github:hover{
   color: azure;
 }
+
+/* SKILLS */
+.section{
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-end;
+}
+.skills{
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.skills:hover{
+  color: rgb(17, 39, 234);
+}
