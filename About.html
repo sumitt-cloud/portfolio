@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+<section class="py-20">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- Left: Image -->
+    <div class="flex justify-center relative">
+      <img src="./BATMAN-WALLPAPER-4K-632023.jpg"
+           class="rounded-3xl shadow-2xl hover:scale-105 transition duration-300">
+      
+      <!-- Glow effect -->
+      <div class="absolute w-72 h-72 bg-pink-500/20 blur-3xl rounded-full"></div>
+    </div>
+
+    <!-- Right: Content -->
+    <div>
+      <h2 class="text-4xl font-bold mb-4">
+        About <span class="text-pink-500">Me</span>
+      </h2>
+
+      <!-- Typing Text -->
+      <h3 class="text-xl text-pink-400 mb-6">
+        <span id="typing"></span>
+      </h3>
+
+      <p class="text-gray-300 leading-relaxed mb-6">
+        I’m a passionate MERN STACK developer focused on building modern web applications using 
+        Node.js, Express, and Tailwind CSS. I love creating clean UI and solving real-world problems.
+      </p>
+
+      <!-- Stats -->
+      <div class="grid grid-cols-3 gap-4 mb-8">
+
+        <div class="bg-gray-800 p-4 rounded-xl text-center hover:scale-105 transition">
+          <h4 class="text-2xl font-bold text-pink-500">5+</h4>
+          <p class="text-sm text-gray-400"><a href="./Projects.html">
+
+            Projects
+          </a>
+          </p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-xl text-center hover:scale-105 transition">
+          <h4 class="text-2xl font-bold text-pink-500">8+</h4>
+          <p class="text-sm text-gray-400"><a href="./Skills.html">
+            Skills
+          </p>
+          </a>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-xl text-center hover:scale-105 transition">
+          <h4 class="text-2xl font-bold text-pink-500">100%</h4>
+          <p class="text-sm text-gray-400">Learning</p>
+        </div>
+
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex gap-4">
+        <a href="./Projects.html"
+           class="px-6 py-3 bg-pink-500 rounded-xl font-semibold hover:bg-pink-600 transition">
+          View Projects
+        </a>
+
+        <a href="./Contact.html"
+           class="px-6 py-3 border border-pink-500 rounded-xl font-semibold hover:bg-pink-500 transition">
+          Contact Me
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Typing Script -->
+<script id="9e2v6x">
+const text = ["Web Developer", "Node.js Enthusiast", "Problem Solver"];
+let i = 0, j = 0;
+let currentText = "";
+let isDeleting = false;
+
+function type() {
+  currentText = text[i];
+  
+  if (!isDeleting) {
+    document.getElementById("typing").innerHTML = currentText.substring(0, j++);
+    if (j > currentText.length) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+      return;
+    }
+  } else {
+    document.getElementById("typing").innerHTML = currentText.substring(0, j--);
+    if (j < 0) {
+      isDeleting = false;
+      i = (i + 1) % text.length;
+    }
+  }
+
+  setTimeout(type, isDeleting ? 50 : 100);
+}
+
+type();
+</script>
+
+</body>
+</html>
