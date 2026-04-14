@@ -1,4 +1,4 @@
-  const btn = document.getElementById("themeBtn")
+  const btn = document.getElementById("theme_toggle")
   const icon = btn.querySelector("i")
   const html = document.documentElement
 
