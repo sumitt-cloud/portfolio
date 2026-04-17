@@ -41,14 +41,14 @@
   <title>Contact</title>
 </head>
 <body>
-  <nav class="py-20 bg-gray-800">
+  <nav class="py-20 bg-gray-800 dark:bg-white">
     <!-- Theme toggle -->
   
-         <button id="theme_toggle" class="ml-auto "> <i class="fa-solid fa-moon text-2xl hover:text-white justify-end 
+         <button id="theme_toggle" class="ml-auto "> <i class="fa-solid fa-moon text-2xl  justify-end text-white dark:text-black
          "></i> </button>
     <a href="./index.html">
 
-    <h1 class="max-w-4xl text-2xl font-bold text-white">
+    <h1 class="max-w-4xl text-2xl font-bold text-white dark:text-black">
       BACK TO 
     </h1>
     <h1 class="max-w-4xl text-2xl font-bold text-pink-500">
@@ -56,7 +56,7 @@
     </h1>
   </a>
 </nav>
- <section class="py-20 bg-gray-900 text-white relative overflow-hidden ">
+ <section class="py-20 bg-gray-900 text-white relative overflow-hidden dark:bg-white">
 
   <!-- Background Glow -->
   <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-pink-500/20 blur-3xl rounded-full"></div>
@@ -64,26 +64,26 @@
   <div class="max-w-4xl mx-auto px-6 relative z-10">
 
     <!-- Heading -->
-    <h2 class="text-4xl font-bold text-center mb-4">
+    <h2 class="text-4xl font-bold text-center mb-4 dark:text-black" >
       Get In <span class="text-pink-500">Touch</span>
     </h2>
 
-    <p class="text-gray-400 text-center mb-12">
+    <p class="text-gray-400 text-center mb-12 dark:text-gray-900">
       Let’s build something amazing together 🚀
     </p>
 
     <!-- Form Card -->
   
-    <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl shadow-2xl border border-white/10">
+    <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl shadow-2xl border border-white/10 dark:border-black">
 
       <form class="space-y-6" onsubmit="sendMail(event)">
 
         <!-- Name -->
         <div class="relative">
-          <span class="absolute left-4 top-3 text-gray-400">👤</span>
+          <span class="absolute left-4 top-3 text-gray-400  ">👤</span>
           <input id="name" type="text" placeholder="Your Name"
             class="w-full pl-12 p-3 rounded-xl bg-gray-800/70 border border-gray-700 
-                   focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/30 transition">
+                   focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/30 transition dark:bg-white ">
         </div>
 
         <!-- Email -->
@@ -91,7 +91,7 @@
           <span class="absolute left-4 top-3 text-gray-400">📧</span>
           <input id="email" type="email" placeholder="Your Email" required
             class="w-full pl-12 p-3 rounded-xl bg-gray-800/70 border border-gray-700 
-                   focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/30 transition">
+                   focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/30 transition dark:bg-white">
         </div>
 
         <!-- Message -->
@@ -99,13 +99,13 @@
           <span class="absolute left-4 top-3 text-gray-400">💬</span>
           <textarea id="message" rows="5" placeholder="Your Message"
             class="w-full pl-12 p-3 rounded-xl bg-gray-800/70 border border-gray-700 
-                   focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/30 transition"></textarea>
+                   focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/30 transition dark:bg-white"></textarea>
         </div>
 
         <!-- Button -->
         <button
           class="w-full bg-gradient-to-r from-pink-500 to-red-500 py-3 rounded-xl font-semibold 
-                 hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30 transition duration-300">
+                 hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30 transition duration-300 dark:text-black">
           🚀 Send Message
         </button>
 
@@ -115,14 +115,14 @@
       <div class="my-8 border-t border-gray-700"></div>
 
       <!-- Social Links -->
-      <div class="flex justify-center gap-6 text-gray-400 text-lg">
+      <div class="flex justify-center gap-6 text-gray-400 text-lg dark:text-black">
 
-        <a href="http://github.com/sumitt-cloud" class=" transition duration-300 transform hover:scale-150 hover:text-black  hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
+        <a href="http://github.com/sumitt-cloud" class=" transition duration-300 transform hover:scale-150 hover:text-gray-900  hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
            <i class="fa-brands fa-square-github text-4xl"></i>
    
         </a>
 
-        <a href="https://www.linkedin.com/in/sumit-gupta-6a830a33b?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="hover:text-blue-700 transition duration-300 hover:scale-150  hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
+        <a href="https://www.linkedin.com/in/sumit-gupta-6a830a33b?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="hover:text-blue-700 transition duration-300 hover:scale-150  hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.5)] ">
               <i class="fa-brands fa-linkedin text-4xl"></i>
            
         </a>
