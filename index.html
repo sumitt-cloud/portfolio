@@ -20,7 +20,7 @@
   </script>
     <title>Portfolio</title>
   </head>
-  <body class="bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300">
+  <body class=" min-h-screen flex flex-col bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300">
     <header class="header"></header>
 
     <!-- NAVBAR -->
@@ -57,17 +57,53 @@
           "></i> </button>
           </nav>
         </div>
-        <footer>
-          <div class=" bg-gray-200 absolute bottom-1 left-1 py-20 px-8 w-full h-fit dark:bg-gray-900">
+        <footer class="bg-gray-200 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-700 mt-auto">
+  
+  <div class="max-w-6xl mx-auto px-6 py-10">
+    
+    <!-- Top Section -->
+    <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+      
+      <!-- Logo / Name -->
+      <h2 class="text-xl font-semibold tracking-wide">
+        Sumit Gupta
+      </h2>
 
-            <!-- email -->
-             <a href=""><i class="fa-solid fa-envelope text-3xl"></i></a>
-            <!-- github -->
-             <a href="http://github.com/sumitt-cloud"><i class="fa-brands fa-github text-3xl"></i></a>
-             <!-- linkedin  -->
-              <a href="https://www.linkedin.com/in/sumit-gupta-6a830a33b?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin text-3xl"></i></a>
-          </div>
-        </footer>
+      <!-- Navigation Links -->
+      <div class="flex gap-6 text-sm">
+        <a href="/Skills.html" class="hover:text-black dark:hover:text-white">Skills</a>
+        <a href="/Projects.html" class="hover:text-black dark:hover:text-white">Projects</a>
+        <a href="/About.html" class="hover:text-black dark:hover:text-white">About</a>
+        <a href="/Contact.html" class="hover:text-black dark:hover:text-white">Contact</a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="flex gap-5 text-xl">
+        <a href="mailto:your@email.com" class="hover:text-blue-500">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://github.com/sumitt-cloud" target="_blank" class="hover:text-gray-600 dark:hover:text-white">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sumit-gupta-6a830a33b" target="_blank" class="hover:text-blue-600">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t border-gray-300 dark:border-gray-700 my-6"></div>
+
+    <!-- Bottom Section -->
+    <p class="text-center text-sm text-gray-600 dark:text-gray-400">
+      © 2026 Sumit Gupta. All rights reserved.
+    </p>
+
+  </div>
+
+</footer>
         <script src="theme_toggle.js"></script>
   </body>
 </htm
